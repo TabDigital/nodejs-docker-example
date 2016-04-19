@@ -3,3 +3,11 @@ steps:
     command: "npm test"
     env:
       BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
+  - name: ":rocket:"
+    command: "echo hellya"
+    env:
+      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
+  - name: ":serve:"
+    command: "npm start"
+    env:
+      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
